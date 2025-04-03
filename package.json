@@ -1,5 +1,16 @@
 {
+  "name": "kari-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve -s ."
+  },
+  "dependencies": {
+    "serve": "^14.0.1"
+  },
   "devDependencies": {
     "node-sass": "^9.0.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
